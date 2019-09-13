@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-top-bottom {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.margin-top-bottom-lg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margin-top-lg {
+    margin-top: 20%;
+}
+
+.margin-top-sm {
+    margin-top: 10%;
+}
+
+.margin-top-small {
+    margin-top: 15px;
+}
+
+.margin-top-bottom-li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-right-li {
+    margin-right: 5px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.ant-layout {
+    background: none !important;
+}
+
+.overflow {
+    overflow: scroll;
+    height: 100%;
+    clear: both;
+}
+
+.fixed-height-vh {
+    height: 100vh;
+}
+
+.item {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(90%);
+}
+
+.slider-title {
+    text-align: right;
+    margin-top: 50vh;
+    margin-right: 10%;
+}
+
+.item-1 {
+    background-image: url("https://res.cloudinary.com/werick-dev/image/upload/v1567891712/z2tsu8g72n9xk0kwourz.jpg");
+}
+
+.item-2 {
+    background-image: url("https://stockx.imgix.net/Timberland-6-Bape-X-Undefeated-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1546678307")
+}
+
+.item-3 {
+    background-image: url("https://assets.gqindia.com/photos/5cdc5ae4de9b7e6daf8f44ff/master/w_1536%2cc_limit/Brogues-Andres-Sendra-Shoes-11811-Cognac-2.jpg");
+}
+
+.divider {
+    height: 8px;
+    background: #000;
+}
+
+.divider-small {
+    width: 75px;
+    margin-left: 27%;
+}
+
+.divider-long {
+    width: 150px;
+    margin-lefT: 45%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    width: 100%;
+    color: #FFFF00;
+    height: 2px !important;
+}
+
+.category {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    position: relative;
+    display: inline-block;
+    color: white;
+    transition: .5s all;
+}
+
+.category a {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+
+a:hover {
+    filter: grayscale(100%);
+}
+
+.category:hover {
+    filter: none;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.border-bottom-input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .fixed-height-vh {
+        height: 40vh;
+    }
+
+    .divider-long {
+        width: 150px;
+        margin-lefT: 25%;
+    }
+}
